@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AlbumBook ver='1.6' title='SunRise Locations' description='SunRise B%26B' firstAlbum='0' width='960' height='270' showThumbnails='true' thumbWidth='80' thumbHeight='60' autoStart='true' allowClick='false' clickAction='_blank' playerName='Player - White (Flash)'>
+	<Album title='Images' description='' path='Images' hasThumb='false' thumbSrc='' hasBg='false' bgSrc='' bgScale='0' interval='3' useTransition='true' transType='Fade' transTime='2' firstImage='1' dispSequence='0'>
+		<Slide src='image1.jpg' caption='' width='960' height='270' thumbWidth='80' thumbHeight='23'/>
+		<Slide src='image2.jpg' caption='' width='960' height='270' thumbWidth='80' thumbHeight='23'/>
+		<Slide src='image3.jpg' caption='' width='960' height='270' thumbWidth='80' thumbHeight='23'/>
+		<Slide src='image4.jpg' caption='' width='960' height='270' thumbWidth='80' thumbHeight='23'/>
+		<Slide src='imageother.jpg' caption='' width='960' height='270' thumbWidth='80' thumbHeight='23'/>
+	</Album>
+</AlbumBook>

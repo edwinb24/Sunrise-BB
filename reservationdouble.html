@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>My dropdown</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="../jquery-1.6.4.js"></script> 
+<script src="myjquery.js"></script>
+<script src="scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<div id="wrapper"><a href="main.html"><img src="Images/othericon.png" height="20" alt="SunRise"></a>
+  <ul class="menuelem">
+    <li><a href="#">Reservations</a>
+      <ul class="dropelem">
+        <li><a href="#">Rates</a>
+          <ul class="dropelem">
+       		<li><a href="reservationsingle.html">Single</a></li>
+            <li><a href="reservationdouble.html">Double</a></li>
+            <li><a href="reservationsuite.html">Suite</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </li>
+    <li><a href="#">Amenities</a>
+      <ul class="dropelem">
+       
+        <li><a href="#">Room Features</a></li>
+        <li><a href="#">Customer Service</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Plan Your Visit</a>
+      <ul class="dropelem">
+        <li><a href="#">Locations</a></li>
+
+        <li><a href="#">Nearby Attractions</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+  </div>
+<div id="bodywrapper">
+  <section id="logo"><img src="Images/bannerfinish.gif" width="900" height="100" alt="banner"></section>
+ 
+  <section id="eleven">
+  <form name="form1" method="post" action="confirmationdouble.php">
+  <fieldset>
+    <legend> Customer Info </legend>
+    <p>&nbsp;</p>
+    <p>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name">
+    </p>
+    <p>
+      <label for="email">E-mail:</label>
+      <input type="text" name="email" id="email">
+    </p>
+    <p>
+      <label for="Reservation"></label>
+    </p>
+    <p>
+      <label for="comments">Comments:</label>
+      <br>
+    </p>
+    <p>
+      <textarea name="comments" id="comments" cols="90" rows="10"></textarea>
+    </p>
+  </fieldset>
+  <p>
+    <input type="submit" name="submit" id="submit" value="Send">
+  </p>
+</form>
+  </section>
+
+</div>
+
+<footer></footer>
+
+
+
+</body>
+</html>
